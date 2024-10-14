@@ -1,0 +1,183 @@
+
+
+<html>
+ <head>
+  <title>
+   Sign Up Screen
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .signup-container {
+            background-color: white;
+            width: 800px;
+            display: flex;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .left-section, .right-section {
+            padding: 40px;
+            flex: 1;
+        }
+        .left-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .left-section h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .left-section p {
+            font-size: 16px;
+            color: #666;
+            margin: 10px 0;
+        }
+        .left-section a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .right-section {
+            background-color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .input-group input:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+        .input-group i {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #aaa;
+        }
+        .input-group.password {
+            position: relative;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #6c63ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #5a54d6;
+        }
+        .social-login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .social-login i {
+            font-size: 24px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .social-login i:hover {
+            color: #007bff;
+        }
+        .illustration {
+            width: 100%;
+            height: auto;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="signup-container">
+    <div class="left-section">
+     <h1>
+      Your Logo
+     </h1>
+     <h1>
+      Sign Up to
+     </h1>
+     <p>
+      Lorem Ipsum is simply
+     </p>
+     <p>
+      If you already have an account
+      <br/>
+      You can
+      <a href="home.html">
+       Login here!
+      </a>
+     </p>
+     <img alt="Illustration of a person with a backpack holding a phone" class="illustration" height="300" src="https://storage.googleapis.com/a1aa/image/y3qtdAqXljqhPV9xtUa3AlOwffQ7jBLgKNwkQfvdRnWkjZNnA.jpg" width="300"/>
+    </div>
+    <div class="right-section">
+     <h2>
+      Sign Up
+     </h2>
+     <div class="input-group">
+      <input placeholder="Enter Email" type="email"/>
+     </div>
+     <div class="input-group">
+      <input placeholder="Create User name" type="text"/>
+     </div>
+     <div class="input-group">
+      <input placeholder="Contact number" type="text"/>
+     </div>
+     <div class="input-group password">
+      <input placeholder="Password" type="password"/>
+      <i class="fas fa-eye">
+      </i>
+     </div>
+     <div class="input-group password">
+      <input placeholder="Confirm Password" type="password"/>
+      <i class="fas fa-eye">
+      </i>
+     </div>
+     <button class="btn">
+      Register
+     </button>
+     <div class="social-login">
+      <p>
+       or continue with
+      </p>
+      <i class="fab fa-facebook">
+      </i>
+      <i class="fab fa-google">
+      </i>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

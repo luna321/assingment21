@@ -1,0 +1,347 @@
+<html>
+ <head>
+  <title>
+   BankDash Overview
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100 font-roboto">
+  <div class="flex">
+   <!-- Sidebar -->
+   <div class="w-1/5 bg-white h-screen p-5">
+    <div class="flex items-center mb-10">
+     <i class="fas fa-university text-blue-600 text-2xl">
+     </i>
+     <span class="ml-2 text-xl font-bold text-gray-700">
+      BankDash
+     </span>
+    </div>
+    <ul>
+     <li class="mb-6">
+      <a class="flex items-center text-blue-600" href="#">
+       <i class="fas fa-tachometer-alt mr-3">
+       </i>
+       <span>
+        Dashboard
+       </span>
+      </a>
+     </li>
+     <li class="mb-6">
+      <a class="flex items-center text-gray-600" href="#">
+       <i class="fas fa-exchange-alt mr-3">
+       </i>
+       <span>
+        Transactions
+       </span>
+      </a>
+     </li>
+     <li class="mb-6">
+      <a class="flex items-center text-gray-600" href="#">
+       <i class="fas fa-wallet mr-3">
+       </i>
+       <span>
+        Accounts
+       </span>
+      </a>
+     </li>
+     <li class="mb-6">
+      <a class="flex items-center text-gray-600" href="#">
+       <i class="fas fa-chart-line mr-3">
+       </i>
+       <span>
+        Investments
+       </span>
+      </a>
+     </li>
+     <li class="mb-6">
+      <a class="flex items-center text-gray-600" href="#">
+       <i class="fas fa-credit-card mr-3">
+       </i>
+       <span>
+        Credit Cards
+       </span>
+      </a>
+     </li>
+     <li class="mb-6">
+      <a class="flex items-center text-gray-600" href="#">
+       <i class="fas fa-hand-holding-usd mr-3">
+       </i>
+       <span>
+        Loans
+       </span>
+      </a>
+     </li>
+     <li class="mb-6">
+      <a class="flex items-center text-gray-600" href="#">
+       <i class="fas fa-concierge-bell mr-3">
+       </i>
+       <span>
+        Services
+       </span>
+      </a>
+     </li>
+     <li class="mb-6">
+      <a class="flex items-center text-gray-600" href="#">
+       <i class="fas fa-user-shield mr-3">
+       </i>
+       <span>
+        My Privileges
+       </span>
+      </a>
+     </li>
+     <li class="mb-6">
+      <a class="flex items-center text-gray-600" href="#">
+       <i class="fas fa-cog mr-3">
+       </i>
+       <span>
+        Setting
+       </span>
+      </a>
+     </li>
+    </ul>
+   </div>
+   <!-- Main Content -->
+   <div class="w-4/5 p-10">
+    <div class="flex justify-between items-center mb-10">
+     <h1 class="text-2xl font-bold text-gray-700">
+      Overview
+     </h1>
+     <div class="flex items-center">
+      <input class="border rounded-full px-4 py-2 mr-4" placeholder="Search for something" type="text"/>
+      <img alt="User profile picture" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/eT8hzgTfRkh2x0I5nLgVVzzeqFVimxzhcOKyls7LTUZq0ZNnA.jpg" width="40"/>
+     </div>
+    </div>
+    <div class="grid grid-cols-3 gap-10">
+     <!-- My Cards -->
+     <div class="col-span-2 bg-white p-5 rounded-lg shadow">
+      <div class="flex justify-between items-center mb-5">
+       <h2 class="text-lg font-bold text-gray-700">
+        My Cards
+       </h2>
+       <a class="text-blue-600" href="#">
+        See All
+       </a>
+      </div>
+      <div class="flex space-x-5">
+       <div class="bg-blue-600 text-white p-5 rounded-lg w-1/2">
+        <div class="mb-5">
+         <p class="text-sm">
+          Balance
+         </p>
+         <p class="text-2xl font-bold">
+          $5,756
+         </p>
+        </div>
+        <div class="mb-5">
+         <p class="text-sm">
+          CARD HOLDER
+         </p>
+         <p class="text-lg">
+          Eddy Cusumta
+         </p>
+        </div>
+        <div class="mb-5">
+         <p class="text-sm">
+          VALID THRU
+         </p>
+         <p class="text-lg">
+          12/22
+         </p>
+        </div>
+        <div class="text-lg">
+         3778 **** **** 1234
+        </div>
+       </div>
+       <div class="bg-gray-200 text-gray-700 p-5 rounded-lg w-1/2">
+        <div class="mb-5">
+         <p class="text-sm">
+          Balance
+         </p>
+         <p class="text-2xl font-bold">
+          $5,756
+         </p>
+        </div>
+        <div class="mb-5">
+         <p class="text-sm">
+          CARD HOLDER
+         </p>
+         <p class="text-lg">
+          Eddy Cusumta
+         </p>
+        </div>
+        <div class="mb-5">
+         <p class="text-sm">
+          VALID THRU
+         </p>
+         <p class="text-lg">
+          12/22
+         </p>
+        </div>
+        <div class="text-lg">
+         3778 **** **** 1234
+        </div>
+       </div>
+      </div>
+     </div>
+     <!-- Recent Transactions -->
+     <div class="bg-white p-5 rounded-lg shadow">
+      <h2 class="text-lg font-bold text-gray-700 mb-5">
+       Recent Transaction
+      </h2>
+      <ul>
+       <li class="flex justify-between items-center mb-4">
+        <div class="flex items-center">
+         <div class="bg-yellow-500 text-white rounded-full p-2 mr-3">
+          <i class="fas fa-arrow-down">
+          </i>
+         </div>
+         <div>
+          <p class="text-sm text-gray-700">
+           Deposit from my Card
+          </p>
+          <p class="text-xs text-gray-500">
+           28 January 2021
+          </p>
+         </div>
+        </div>
+        <p class="text-red-500">
+         -8500
+        </p>
+       </li>
+       <li class="flex justify-between items-center mb-4">
+        <div class="flex items-center">
+         <div class="bg-green-500 text-white rounded-full p-2 mr-3">
+          <i class="fas fa-arrow-up">
+          </i>
+         </div>
+         <div>
+          <p class="text-sm text-gray-700">
+           Deposit Paypal
+          </p>
+          <p class="text-xs text-gray-500">
+           25 January 2021
+          </p>
+         </div>
+        </div>
+        <p class="text-green-500">
+         +2,500
+        </p>
+       </li>
+       <li class="flex justify-between items-center mb-4">
+        <div class="flex items-center">
+         <div class="bg-blue-500 text-white rounded-full p-2 mr-3">
+          <i class="fas fa-arrow-up">
+          </i>
+         </div>
+         <div>
+          <p class="text-sm text-gray-700">
+           Jemi Wilson
+          </p>
+          <p class="text-xs text-gray-500">
+           21 January 2021
+          </p>
+         </div>
+        </div>
+        <p class="text-green-500">
+         +5,400
+        </p>
+       </li>
+      </ul>
+     </div>
+     <!-- Weekly Activity -->
+     <div class="col-span-2 bg-white p-5 rounded-lg shadow">
+      <h2 class="text-lg font-bold text-gray-700 mb-5">
+       Weekly Activity
+      </h2>
+      <div class="flex justify-between items-center mb-5">
+       <div class="flex items-center">
+        <div class="bg-blue-500 text-white rounded-full p-2 mr-3">
+         <i class="fas fa-arrow-up">
+         </i>
+        </div>
+        <p class="text-sm text-gray-700">
+         Deposit
+        </p>
+       </div>
+       <div class="flex items-center">
+        <div class="bg-red-500 text-white rounded-full p-2 mr-3">
+         <i class="fas fa-arrow-down">
+         </i>
+        </div>
+        <p class="text-sm text-gray-700">
+         Withdraw
+        </p>
+       </div>
+      </div>
+      <div class="h-40 bg-gray-100 rounded-lg">
+      </div>
+     </div>
+     <!-- Expense Statistics -->
+     <div class="bg-white p-5 rounded-lg shadow">
+      <h2 class="text-lg font-bold text-gray-700 mb-5">
+       Expense Statistics
+      </h2>
+      <div class="h-40 bg-gray-100 rounded-lg">
+      </div>
+     </div>
+     <!-- Quick Transfer -->
+     <div class="col-span-2 bg-white p-5 rounded-lg shadow">
+      <h2 class="text-lg font-bold text-gray-700 mb-5">
+       Quick Transfer
+      </h2>
+      <div class="flex items-center mb-5">
+       <img alt="Livia Bator profile picture" class="rounded-full mr-3" height="40" src="https://storage.googleapis.com/a1aa/image/CdzR9MdkAYa8JlglUrEln95oCorzEfuyjD2jxfG1hjnU6smTA.jpg" width="40"/>
+       <div>
+        <p class="text-sm text-gray-700">
+         Livia Bator
+        </p>
+        <p class="text-xs text-gray-500">
+         CEO
+        </p>
+       </div>
+      </div>
+      <div class="flex items-center mb-5">
+       <img alt="Randy Press profile picture" class="rounded-full mr-3" height="40" src="https://storage.googleapis.com/a1aa/image/HZpMKm0gVAavHNWJ3KpIrJz3HHAQLeUAm4vltekeFy6i0ZNnA.jpg" width="40"/>
+       <div>
+        <p class="text-sm text-gray-700">
+         Randy Press
+        </p>
+        <p class="text-xs text-gray-500">
+         Director
+        </p>
+       </div>
+      </div>
+      <div class="flex items-center mb-5">
+       <img alt="Workman profile picture" class="rounded-full mr-3" height="40" src="https://storage.googleapis.com/a1aa/image/ekCfZ9eeOGoSWQC9t0N6yKmcKOnBZHXzjIJXar8z29GIpzaOB.jpg" width="40"/>
+       <div>
+        <p class="text-sm text-gray-700">
+         Workman
+        </p>
+        <p class="text-xs text-gray-500">
+         Designer
+        </p>
+       </div>
+      </div>
+      <div class="flex items-center">
+       <input class="border rounded-full px-4 py-2 mr-4" placeholder="Write Amount" type="text"/>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded-full">
+        Send
+       </button>
+      </div>
+     </div>
+     <!-- Balance History -->
+     <div class="col-span-2 bg-white p-5 rounded-lg shadow">
+      <h2 class="text-lg font-bold text-gray-700 mb-5">
+       Balance History
+      </h2>
+      <div class="h-40 bg-gray-100 rounded-lg">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
